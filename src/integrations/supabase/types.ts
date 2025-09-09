@@ -14,7 +14,12 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      foodie: {
+        Row: {}
+        Insert: {}
+        Update: {}
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
